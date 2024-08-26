@@ -6,13 +6,21 @@ You can think of it as a structure that keeps a list of applications running on 
 ## If you want to run it with Docker
 
 ### Build: 
+```
 docker build -t sehmusaydogdu/eurekaserverapp .
+```
 
-### Run:   
+### Run:
+```
 docker run -p 8761:8761 sehmusaydogdu/eurekaserverapp
+```
 
-### Stop:  
+### Stop:
+```
 docker stop <containerId>
+```
 
 ## If you want to run it with Maven
+```
 mvn spring-boot:run
+```
